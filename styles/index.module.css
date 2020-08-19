@@ -1,0 +1,30 @@
+.login{
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr ;
+    margin-top: 15%;
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-bottom: 41%;
+}
+.loginForm{
+    display: grid;
+    grid-template: 1fr 1fr 1f / 1fr;
+    row-gap: 10px;
+}
+.address{
+    width: 100%;
+    padding: 12px 20px;
+    /* margin: 4px 0; */
+    box-sizing: border-box;
+}
+.password{
+    width: 100%;
+    padding: 12px 20px;
+    /* margin: 4px 0; */
+    box-sizing: border-box;
+}
+.signup{
+    width: 50%;
+    padding: 8px 20px;
+    justify-self: center;
+}
