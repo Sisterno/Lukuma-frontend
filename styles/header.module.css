@@ -1,0 +1,27 @@
+.header_2 {
+    overflow: hidden;
+    background-color:white; /*#e4b133;*/
+    height: 100%;
+    width: 100%;
+}
+.enlace{
+    margin-left: 1em;
+    align-content: center;
+    margin-right: 1em;  
+    
+}
+.logo{
+    display: inline-block;
+    height: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menu_1{
+    display: inline-block;
+}
+.covid_box{
+    background-color: lightblue;
+    height: 5em;
+    width: 100%;
+
+}
