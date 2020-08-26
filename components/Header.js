@@ -1,7 +1,16 @@
+import Link from 'next/link'
+
 export default function Header(){
     return(
-        <header>
-            I'm the real Header
-        </header>
+        <nav>
+            <menu>
+                <Link href="/Home">
+                    <a >Home</a>
+                </Link>
+                <Link href='/hola'>
+                    <a >About</a>
+                </Link>
+            </menu>
+        </nav>
     )
 }
