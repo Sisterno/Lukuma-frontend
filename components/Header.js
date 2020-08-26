@@ -4,9 +4,7 @@ export default function Header(){
     return(
         <header className = {styles.headerContain}>
             <div className = {styles.menuContain}>
-                {/* <div className={styles.logoContent}> */}
                     <img className={styles.logo} src="/lukuma_logo_ico.png"/>
-                {/* </div> */}
                 <nav className={styles.menuCustom1}> 
                     {/* <menu> */}
                     <Link href="/"><a className = {styles.linkCustom}>Destinos</a></Link>

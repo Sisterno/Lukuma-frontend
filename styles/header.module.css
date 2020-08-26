@@ -10,13 +10,6 @@
     grid-template-columns: 5% 95%;    
     align-items: center;
 }
-
-.logoContent{
-    align-content: center;
-    display: inline-block;
-    width: 5%;
-    
-}
 .logo{
     width: 100%;
     display: inline-block;
