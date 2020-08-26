@@ -1,27 +1,40 @@
-.header_2 {
+.headerContain {
     overflow: hidden;
     background-color:white; /*#e4b133;*/
-    height: 100%;
+    
     width: 100%;
 }
-.enlace{
-    margin-left: 1em;
+.menuContain{
+    display: block;
+    display: grid;
+    grid-template-columns: 5% 95%;    
+    align-items: center;
+}
+
+.logoContent{
     align-content: center;
-    margin-right: 1em;  
+    display: inline-block;
+    width: 5%;
     
 }
 .logo{
-    display: inline-block;
-    height: 2em;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.menu_1{
-    display: inline-block;
-}
-.covid_box{
-    background-color: lightblue;
-    height: 5em;
     width: 100%;
-
+    display: inline-block;
+    
+}
+.menuCustom1{
+    padding:1em 0 1em 0 ;
+    display: inline-block;
+    width: 95%;
+    align-content: center;
+    justify-content: center;
+}
+.linkCustom{
+    margin-left: 5%;    
+    margin-right: 5%;      
+}
+.covidBox{
+    background-color: #139CAB;
+    height: 2em;
+    width: 100%;
 }
