@@ -7,27 +7,11 @@ export default function Login() {
   const [identifier, setIdentifier] = useState('')
   const [password, setPassword] = useState('')
 
-// onSubmit (e){
-//   e.preventDefault();
-
-//   axios.post('http://104.154.180.58/auth/local', {
-//     identifier: identifier,
-//     password: password
-//   })
-
-//   .then(res =>{
-//     console.log(res)
-//     console.log(res.data)
-//   })
-// }
   const senddata = async (e) =>{
-    console.log("sadfasdf")
     await axios.post('http://104.154.180.58/auth/local', {
     identifier: identifier,
     password: password
   })
-  // console.log(identifier)
-  // console.log(password)
   .then((res) =>{
     console.log(res.data);
   })
