@@ -1,4 +1,8 @@
 import styles from "./header.module.css";
+//Font awesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
+
 import Link from "next/link";
 export default function Header(){
     return(
@@ -15,7 +19,10 @@ export default function Header(){
                     <Link href="/"><a className = {styles.linkCustom}>Sobre Nosotros</a></Link>
                     <Link href="/"><a className = {styles.linkCustom}>Iniciar Sesion</a></Link>
                     {/* </menu> */}
-                    <div className={styles.signInBotton}><i class="fas fa-plus-circle"/><span>Registrarse</span></div>
+                    <div className={styles.signInBotton}>
+                        <FontAwesomeIcon className={styles.plusIcon} icon={faPlusCircle} />
+                        <span className= {styles.signInText}>Registrarse</span>
+                    </div>
                     <img className={styles.languageLogo} src="/spanish.jpg" />
                 </nav>
             </div>

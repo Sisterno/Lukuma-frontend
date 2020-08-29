@@ -37,20 +37,32 @@
     text-align: center;
     font-size: 12px;
 }
-.covidBox{
-    background-color: #139CAB;
-    height: 2em;
-    width: 100%;
-}
 .signInBotton{
     background-color: #F79B2E;
     border-radius: 10px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 15%;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+.plusIcon{
+    color: white;
+    font-size: 15px;
+}
+.signInText{
+    color: white;
+    font-size: 10px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
 .languageLogo{
     height: 1em;
+    padding-left: 10px;
 }
 
 
