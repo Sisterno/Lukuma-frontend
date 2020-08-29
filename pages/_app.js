@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 //this import is using the next.config,js how we see we aren't specification the exact path
-import Header from 'components/Header'
+import Header from 'components/header/Header'
 import Footer from 'components/Footer'
 
 function MyApp({ Component, pageProps }) {

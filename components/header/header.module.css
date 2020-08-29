@@ -1,0 +1,62 @@
+.headerContain {
+    overflow: hidden;
+    background-color:white; /*#e4b133;*/    
+    width: 100%;
+}
+.menuContain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    align-content: center;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.logoContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-self: center;
+}
+.logo{
+    height: 3em;
+}
+.logoText{
+    align-self: center;
+    font-family: "Richela Kids";
+    font-size: larger;
+}
+.menuCustom1{
+    align-content: center !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.linkCustom{
+    /* margin-left: 2%;      */
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 12px;
+}
+.covidBox{
+    background-color: #139CAB;
+    height: 2em;
+    width: 100%;
+}
+.signInBotton{
+    background-color: #F79B2E;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 15%;
+}
+.languageLogo{
+    height: 1em;
+}
+
+
+
+
+@font-face {
+    font-family: "Richela Kids";
+    src: url("../../styles/fonts/Richela\ Kids.otf");
+}
