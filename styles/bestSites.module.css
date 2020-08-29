@@ -1,0 +1,56 @@
+.bestSites{
+    display: grid;
+    grid-template: 50% 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.bestSites h2{
+    grid-column: 1 / 7;
+    justify-self: center;
+}
+.region1{
+    grid-row: 3/4;
+}
+.image_region1{
+    
+    grid-row: 2/3;
+}
+.region2{
+    grid-row: 2/3;
+}
+.image_region2{
+   
+    grid-row: 3/4;
+}
+.region3{
+    grid-row: 3/4;
+}
+.image_region3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.region4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.image_region4{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.region5{
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+.image_region5{
+    grid-row: 2/3;
+    grid-column: 5/6;
+}
+.region6{
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+.image_region6{
+    grid-column: 6/7;
+}
+.image_region1, .image_region2, .image_region3, .image_region4, .image_region5, .image_region6{
+    background-color: #E0004F;
+}

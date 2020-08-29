@@ -1,0 +1,53 @@
+.Hero{
+    background-image: url('../../public/Background.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: grid;
+    grid-template: 300px 1fr/ 1fr;
+}
+.heroText{
+    justify-self: center;
+    font-size: 3em;
+    align-self: flex-end;
+    color: white;
+}
+.heroForm{
+    display: grid;
+    grid-template: 1fr / 5% 35% 5% 35% 1fr;
+    width: 50%;
+    height: 25%;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 8%;
+   
+}
+.headerMapIcon{
+    align-self: center;
+    justify-self: center;
+}
+.headerDestiny{
+    align-self: center;
+    height: 50%;
+}
+.headerCalendar{
+    align-self: center;
+    justify-self: center;
+    margin-left: 5px;
+}
+.headerDatePicker{
+    margin-top: 8%;
+    margin-left: 5px;
+}
+.headerSearch{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    background-color: chocolate;
+    border-top-right-radius: 6.5px;
+    justify-items: center;
+    align-items: center;
+}
