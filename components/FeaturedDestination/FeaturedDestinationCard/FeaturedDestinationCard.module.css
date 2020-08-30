@@ -1,0 +1,10 @@
+.featuredDestination_Card{
+    margin: 5px;
+    background-color: white;
+    border: black;
+    box-shadow: 8px 9px 12px 2px rgba(0,0,0,0.27);
+    border-radius: 5px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
