@@ -7,10 +7,9 @@ export default function InfoBox({
         infoButtonText:"error"
     }
 }){
-    let img = info.infoImg
     return(
         <div className={styles.InfoBoxCardBox}>
-            <img className={styles.InfoBoxCardImg} src={`${info.infoTitle}`}/>
+            <img className={styles.InfoBoxCardImg} src={info.imgPath}/>
             <span className={styles.InfoBoxCardTitle}>{info.infoTitle} </span>
             <p className={styles.InfoBoxCardImgText}> {info.infoText} </p>
             <div className={styles.InfoBoxCardImgButtom}>

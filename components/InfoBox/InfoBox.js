@@ -4,7 +4,7 @@ import InfoBoxCard from './InfoBoxCard/InfoBoxCard'
 let dataPruebas = {
     infoCard:[
         {
-            infoImage:"",
+            imgPath:"/image-not-found.png",
             infoTitle:"Viaje y colabore",
             infoText:`Use the search tools here to find other families or people,
             travelers like you, to meet up with on the road, and be
@@ -12,14 +12,14 @@ let dataPruebas = {
             infoButtonText:"Ingresar o crear cuenta"
         },
         {
-            infoImage:"",
+            imgPath:"/image-not-found.png",
             infoTitle:"Administre sus viajes desde una cuenta",
             infoText:`"When you're on the road for a long spell, whether as a
             worldschooling family or a digital nomad, it can be hard to`,
             infoButtonText:"Agregar un destino"
         },
         {
-            infoImage:"",
+            imgPath:"/image-not-found.png",
             infoTitle:"Es proveedor de turismo unase ! a lukuma.pe",
             infoText:`"When you're on the road for a long spell, whether as a
             worldschooling family or a digital nomad, it can be hard to `,
