@@ -1,0 +1,41 @@
+.InfoBoxContain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-column-gap: 50px;
+}
+.LogoContain{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+}
+.Logo{
+    width: 10rem;
+    justify-self : center;
+    align-self: center;
+}
+.LogoText{
+    justify-self : center;
+    align-self: center;
+    font-family: "Richela Kids";
+    font-size: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Richela Kids";
+    src: url("../../styles/fonts/Richela\ Kids.otf");
+}

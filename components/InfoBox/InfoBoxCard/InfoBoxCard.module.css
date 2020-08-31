@@ -1,0 +1,38 @@
+.InfoBoxCardBox{
+    display: grid;
+    grid-template-rows: 4;
+    grid-template-columns: 1;
+    justify-content: center;
+}
+.InfoBoxCardImg{
+    height: 10rem;
+    background-color: gray;
+
+}
+.InfoBoxCardTitle{
+    text-align: center;
+    font-size: large;
+}
+.InfoBoxCardImgText{
+    text-align: justify;
+    font-size: x-small;
+
+}
+.InfoBoxCardImgButtom{
+    display: flex;
+    background: linear-gradient(to right, rgba(0,169,90,1) 0%, rgba(1,192,138,1) 100%);
+    color: white;
+    font-size:x-small ;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.InfoBoxCardImgButtomText{
+    text-align: center;
+    align-self: center;
+    
+}
