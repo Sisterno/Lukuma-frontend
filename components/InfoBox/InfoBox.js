@@ -34,9 +34,9 @@ export default function InfoBox(){
                 <img className={styles.Logo} src="/lukuma_logo_ico.png"></img>
                 <span className={styles.LogoText}>Lukuma.pe</span>
             </div>
-            <InfoBoxCard info={dataPruebas.infoCard[0]}/>
-            <InfoBoxCard info={dataPruebas.infoCard[1]}/>
-            <InfoBoxCard info={dataPruebas.infoCard[2]}/>
+            {dataPruebas.infoCard.map((data)=>(
+                <InfoBoxCard key={dataPruebas.infoCard.indexOf(data)} info={data}/> //preguntar por key :v
+            ))}
         </div>
     )
 }

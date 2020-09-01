@@ -1,0 +1,76 @@
+.LandingListToursCartBox{
+    background: linear-gradient(#FFF8E0,#FFF8E0 20%, white 20%, white );
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding: 0 15px 10px 15px;
+    
+}
+.LandingListToursCartImg{
+    width: 100%;
+}
+.LandingListToursCartTitle{
+    justify-self : left;
+    align-self: center;
+    font-family: "Richela Kids";
+    font-size: 12px;
+}
+.LandingListToursCartStar{
+
+}
+.LandingListToursCartData{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    font-size: small;
+    color: #5C5F64;
+}
+.LandingListToursCartLocate{
+    grid-row: 1;
+    grid-column: 2;
+    font-size: medium;
+}
+.LandingListToursCartDuration{
+    grid-row: 2;
+    grid-column: 2;
+}
+.LandingListToursCartPeople{
+    grid-row: 3;
+    grid-column: 2;
+}   
+.LandingListToursCartTx{
+    grid-row: 1/span 3;
+    grid-column: 3;
+    justify-self: right;
+    align-self: flex-end;
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: end;
+}
+.LandingListToursCartTxPrice{
+    color: black;
+    font-size: large;
+}
+.MapMarkedIco{
+    color: #F86B6A;
+    font-size: x-small;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+}
+.CalendarIco{
+    font-size: x-small;
+    grid-row: 2;
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+}
+.UserIco{
+    font-size: x-small;
+    grid-row: 3;
+    grid-column: 1;
+    align-self: center;
+    justify-self: center;
+}
