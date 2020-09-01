@@ -1,0 +1,12 @@
+.LandingCategorieCartBox{
+    background: linear-gradient(to right, rgba(248,106,106,1) 0%, rgba(253,148,78,1) 100%);
+    display: grid;
+    border-radius: 5px;
+}
+.LandingCategorieCartText{
+    color: white;
+    align-self: center;
+    justify-self: center;
+    padding: 5px 0 5px 0;
+    
+}
