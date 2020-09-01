@@ -60,7 +60,7 @@ export default function LandingListTours({
             <span className={styles.ToursTitle}>{Title}</span>
             <div className={styles.CartBox}>
                 {dataPruebas.map((data)=>(
-                    <LandingListToursCart info={data} />
+                    <LandingListToursCart info={data} key={dataPruebas.indexOf(data)} />
                 ))}
             </div>
             <div className={styles.MoreButtom}>

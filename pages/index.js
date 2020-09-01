@@ -3,6 +3,7 @@ import Destination from '../components/FeaturedDestination/FeaturedDestination'
 import InfoBox from '../components/InfoBox/InfoBox'
 import LandingListTours from '../components/LandingListTours/LandingListTours'
 import MostVisitedDestination from '../components/MostVisitedDestination/MostVisitedDestination'
+import LandingCategorie from '../components/LandingCategorie/LandingCategorie'
 // import React,{useState,useEffect} from 'react'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <LandingListTours Title="Tours Recomendados"/>
       <LandingListTours Title="Experiencias inolvidables"/>
       <MostVisitedDestination/>
+      <LandingCategorie />
     </div>
   )
 }
