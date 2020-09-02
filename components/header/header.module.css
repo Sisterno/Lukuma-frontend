@@ -5,15 +5,14 @@
 }
 .menuContain{
     display: grid;
-    grid-template-columns: 1fr 1fr;    
+    grid-template-columns: 40% 60%;    
     align-content: center;
     height: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1% 10% 1% 10%;
 }
 .logoContainer{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     justify-self: center;
 }
 .logo{
@@ -27,8 +26,8 @@
 .menuCustom1{
     align-content: center !important;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 60% 20% 20%;
+    justify-items: center;
 }
 .linkCustom{
     /* margin-left: 2%;      */
@@ -39,7 +38,7 @@
 }
 .signInBotton{
     background-color: #F79B2E;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-left: 5%;
     padding-right: 5%;
     align-content: center;
@@ -57,12 +56,13 @@
     font-size: 10px;
     justify-self: center;
     align-self: center;
-    text-align: center;
+    padding: 5px 10px 5px 10px;
 }
 
 .languageLogo{
     height: 1em;
-    padding-left: 10px;
+    
+    align-self: center;
 }
 
 
