@@ -1,0 +1,19 @@
+
+.mostVisitedDestination{
+    display: grid;
+    grid-template: 10% 1fr / 1fr;
+}
+.mostVisitedDestination h1{
+    justify-self: center;
+    color: orange
+}
+.mostVisitedDestination_card{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 34px;
+    row-gap: 20px;
+
+}

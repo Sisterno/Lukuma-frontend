@@ -1,11 +1,11 @@
 .featuredDestination{
     display: grid;
-    grid-template: 1fr / 65% 35%;
+    grid-template: 1fr / 60% 40%;
     background-color: #D3D5E0;
 }
 .featuredDestination_Text{
-    padding-top: 10%;
-    padding-left: 20%;
+    padding-top: 4%;
+    padding-left: 15%;
     display: grid;
     grid-template: 10% 14% 31% 7% 18%/ 1fr;
     
@@ -13,6 +13,9 @@
 .featuredDestination_textSpan {
    color: #FA3F00;
 }
+.featuredDestination_textSpan2 {
+    color: #FA3F00;
+ }
 .featuredDestination_Text h1{
     margin-top: 10px;
     margin-bottom: 0;
@@ -28,7 +31,7 @@
 }
 .featuredDestination_Image{
     width: 100%;
-    height: 35em;
+    height: 30em;
     grid-column: 2/3;
     grid-row: 1/6;
 }

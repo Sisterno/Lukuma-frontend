@@ -43,7 +43,7 @@ export default function Destination(){
                 <span className={styles.featuredDestination_textSpan}>Destino <br/> Destacado</span>
                 <h1>LAGUNA HUAMANTAY</h1>
                 <p>Explorar Perú es como un sueño de infinitas posibilidades, entre las que estan navegar en kayak por sus canales o empaparte de su rica tradicionartistica. Encuentra las mejores experiencias de la capital y saca el maximo partido de tu visita</p>
-                <span className={styles.featuredDestination_textSpan}>Experiencias y aventuras en un solo destino</span>
+                <span className={styles.featuredDestination_textSpan2}>Experiencias y aventuras en un solo destino</span>
                 <div className={styles.featuredDestination_card}>
                     {featuredcard.map((featured)=>(
                         <FeaturedDestinationCard
