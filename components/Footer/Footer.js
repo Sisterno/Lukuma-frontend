@@ -16,33 +16,39 @@ export default function Footer(){
             <div className={styles.footer_data}>
                 <div className={styles.footer_data_money}>
                     <span className={styles.footer_data_moneyLanguage}>Idioma</span>
-                    <span className={styles.footer_data_moneyLanguage_spanish}>Español
-                        <img className={styles.footer_data_moneyLanguage_spanishImg} src="/spanish.jpg"></img>
-                    </span>
+                    <span className={styles.footer_data_moneyLanguage_spanish}>Español</span>
+                    <img className={styles.footer_data_moneyLanguage_spanishImg} src="/spanish.jpg"></img>
                     <span className={styles.footer_data_moneyChange}>Cambio</span>
                     <span className={styles.footer_data_moneyChangeDollar}>Dolar USD</span>
                     
                 </div>
-                <div className={styles.footer_data1}>
-                    <span>Soporte lukuma.pe</span>
-                    <span>Contacto</span>
-                    <span>Informacion Legal</span>
-                    <span>Politica de privacidad</span>
-                    <span>Condiciones de uso</span>
-                    <span>Covid-19 update</span>
+                <div >
+                    <ul className={styles.footer_data1}>
+                        <li>Soporte lukuma.pe</li>
+                        <li>Contacto</li>
+                        <li>Informacion Legal</li>
+                        <li>Politica de privacidad</li>
+                        <li>Condiciones de uso</li>
+                        <li>Covid-19 update</li>
+                    </ul>
                 </div>
-                <div className={styles.footer_data2}>
-                    <span>Lukuma.pe</span>
-                    <span>Sobre nosotros</span>
-                    <span>Oportunidad Laboral</span>
-                    <span>Blog</span>
-                    <span>Youtube</span>
-                    <span>Bonos</span>
+                <div >
+                    <ul className={styles.footer_data2}>
+                        <li>Lukuma.pe</li>
+                        <li>Sobre nosotros</li>
+                        <li>Oportunidad Laboral</li>
+                        <li>Blog</li>
+                        <li>Youtube</li>
+                        <li>Bonos</li>
+                    </ul>
                 </div>
-                <div>
-                    {/* <img  src='/Visa.png'></img>
-                    <img  src='/paypal.png'></img> */}
+                <div className={styles.footer_data_img}>
+                    <span className={styles.footer_data_img_text}>Metodos de pago permitidos</span>
+                    <img className={styles.footer_data_imgVisa} src='/Visa.png'></img>
+                    <img className={styles.footer_data_imgPaypal} src='/paypal.png'></img>
                 </div>
+
+                <div>Copiright</div>
             </div>
         </footer>
     )
