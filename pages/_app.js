@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 import "react-datepicker/dist/react-datepicker.css";
 //this import is using the next.config,js how we see we aren't specification the exact path
-import Header from 'components/header/Header'
-import Footer from 'components/Footer'
+import Header from 'components/Header/Header'
+import Footer from 'components/Footer/Footer'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Header/>
       <Component {...pageProps} />
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }
