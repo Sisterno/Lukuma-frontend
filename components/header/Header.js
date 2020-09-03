@@ -12,8 +12,8 @@ export default function Header(){
                     <img className={styles.logo} src="/lukuma_logo_ico.png"/>
                     <span className={styles.logoText}>Lukuma.pe</span>
                 </div>
-                <nav className={styles.menuCustom1}> 
-                    <menu>
+                <nav className={styles.AllMenuBox}> 
+                    <menu className={styles.MenuLinks}>
                         <Link href="/"><a className = {styles.linkCustom}>Inicio</a></Link>
                         <Link href="/"><a className = {styles.linkCustom}>Destinos</a></Link>
                         <Link href="/"><a className = {styles.linkCustom}>Lugares</a></Link>
