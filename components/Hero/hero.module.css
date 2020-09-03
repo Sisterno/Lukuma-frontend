@@ -16,7 +16,7 @@
 }
 .heroForm{
     display: grid;
-    grid-template: 1fr / 5% 35% 5% 35% 1fr;
+    grid-template: 1fr / 10% 30% 5% 35% 1fr;
     width: 50%;
     height: 25%;
     justify-self: center;
@@ -34,6 +34,10 @@
     align-self: center;
     width: 95%;
     height: 45%;
+    border-left: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+    color: gray;
 }
 .headerCalendar{
     align-self: center;
@@ -43,12 +47,24 @@
 .headerDatePicker{
     margin-top: 8%;
     margin-left: 5px;
+    border-style: none;
+    
 }
 .headerSearch{
     display: grid;
-    grid-template: 1fr / 1fr 1fr;
-    background-color: chocolate;
+    grid-template: 1fr / 65% 30%;
+    color: white;
+    background: rgb(255,128,0);
+    background: linear-gradient(90deg, rgba(255,128,0,1) 23%, rgba(254,133,20,1) 47%, rgba(254,141,48,1) 63%, rgba(253,144,60,1) 83%, rgba(253,148,74,1) 95%);
     border-top-right-radius: 6.5px;
-    justify-items: center;
-    align-items: center;
+}
+.headerSearch_button{
+    justify-self: center;
+    align-self: center;
+}
+.headerSearch_ArrowIcon{
+    width: 100%;
+    padding-top: 4px;
+    height: auto;
+    align-self: center;
 }
