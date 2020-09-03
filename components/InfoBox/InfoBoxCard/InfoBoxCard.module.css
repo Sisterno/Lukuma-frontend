@@ -10,11 +10,14 @@
 }
 .InfoBoxCardTitle{
     text-align: center;
-    font-size: large;
+    font-size: 13px;
+    font-family: "Montserrat-Regular";;
 }
 .InfoBoxCardImgText{
     text-align: justify;
-    font-size: x-small;
+    font-size: 8px;
+    font-family: "Montserrat-Regular";;
+    color: gray;
 
 }
 .InfoBoxCardImgButtom{
