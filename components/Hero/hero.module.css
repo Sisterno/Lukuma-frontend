@@ -29,6 +29,7 @@
 .headerMapIcon{
     align-self: center;
     justify-self: center;
+    color: #5C5F64;
 }
 .headerDestiny{
     align-self: center;
@@ -43,6 +44,7 @@
     align-self: center;
     justify-self: center;
     margin-left: 5px;
+    color: #5C5F64;
 }
 .headerDatePicker{
     margin-top: 8%;
