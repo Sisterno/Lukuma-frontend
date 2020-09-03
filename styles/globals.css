@@ -19,3 +19,15 @@ a {
   font-family: "Richela Kids";
   src: url("./fonts/Richela\ Kids.otf");
 }
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./fonts/Montserrat-Bold.otf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./fonts/Montserrat-Regular.otf");
+}
+@font-face {
+  font-family: "ontserrat-SemiBold";
+  src: url("./fonts/Montserrat-SemiBold.otf");
+}
