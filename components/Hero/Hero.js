@@ -3,7 +3,7 @@ import styles from './hero.module.css'
 import DatePicker from 'react-datepicker'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCalendarAlt } from '@fortawesome/free-regular-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 import { useState } from 'react';

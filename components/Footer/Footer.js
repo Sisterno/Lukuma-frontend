@@ -47,9 +47,8 @@ export default function Footer(){
                     <img className={styles.footer_data_imgVisa} src='/Visa.png'></img>
                     <img className={styles.footer_data_imgPaypal} src='/paypal.png'></img>
                 </div>
-
-                <div>Copiright</div>
             </div>
+            <span className={styles.footer_copiright}>Copyright 2020 Todos los derechos reservados - Desing By <strong>AMARU DIGITAL AGENCY.</strong></span>
         </footer>
     )
 }

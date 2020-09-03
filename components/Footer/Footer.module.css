@@ -5,7 +5,8 @@
 }
 .footer_email{
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    align-content: center;
+    grid-template: 40% 20%  / 1fr 1fr;
     background-image: url('/mapa-footer-01.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -15,10 +16,12 @@
 .footer_email_h1{
     text-align: center;
     color: white;
+    font-size: 2em;
 }
 .footer_email_span{
     text-align: center;
     color: white;
+    font-size: 1em;
 }
 .footer_form{
     grid-row: 1/3;
@@ -30,7 +33,8 @@
     margin-right: 20px;
 }
 .footer_form_button{
-    background-color: #00B300;
+    background: rgb(54,180,5);
+    background: linear-gradient(0deg, rgba(54,180,5,1) 23%, rgba(45,185,17,1) 47%, rgba(31,193,37,1) 63%, rgba(25,197,46,1) 83%, rgba(58,186,93,1) 95%);
     border-radius: 5px;
     padding: 5px 10% 10px 10%;
     color: white;
@@ -42,14 +46,23 @@
     padding-top: 3%;
     padding-left: 15%;
     padding-right: 15%;
-    background-color: lightyellow;
+    background-color: #FDE9D7;
 }
 .footer_data_money{
     display: grid;
-    grid-template: 25% 20% / 30% 26% 20%;
+    grid-template: 24% 20% / 40% 38% 25%;
+}
+.footer_data_moneyLanguage{
+    font-weight: bold;
+}
+.footer_data_moneyChange{
+    font-weight: bold;
 }
 .footer_data_moneyLanguage_spanish{
     padding-right: 10px;
+}
+.footer_data_moneyChangeDollar{
+    grid-column: 2/4;
 }
 .footer_data_moneyLanguage_spanishImg{
     width: 60%;
@@ -69,7 +82,7 @@
 }
 .footer_data_img{
     display: grid;
-    grid-template: 20% 1fr / 1fr 1fr;
+    grid-template: 35% 1fr / 1fr 1fr;
 }
 .footer_data_img_text{
     text-align: center;
@@ -83,4 +96,12 @@
 .footer_data_imgPaypal{
     width: 50%;
     height: auto;
+}
+.footer_copiright{
+    justify-self: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.footer_copiright strong {
+    font-family: "Richela Kids";
 }
