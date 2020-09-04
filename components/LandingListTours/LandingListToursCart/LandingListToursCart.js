@@ -16,7 +16,10 @@ export default function LandingListToursCart({
 }){
     return(
         <div className={styles.LandingListToursCartBox}>
-            <img className={styles.LandingListToursCartImg} src={info.img} />
+            <div>
+                <img className={styles.LandingListToursCartImg} src={info.img}></img>
+                <span className={styles.LandingListToursCartAdvice}>Oferta!</span>
+            </div>
             <span className={styles.LandingListToursCartTitle} > {info.title} </span>
             <div className={styles.LandingListToursCartStar}> {info.star} </div>
             <div className={styles.LandingListToursCartData}>
