@@ -5,8 +5,9 @@
     justify-content: center;
 }
 .InfoBoxCardImg{
-    height: 7.5rem;
+    height: 6rem;
     justify-self: center;
+    margin: 0 0 10px 0;
 }
 .InfoBoxCardTitle{
     text-align: center;
