@@ -1,8 +1,10 @@
 import styles from "./LandingCategorie.module.css";
 import LandingCategorieCart from './LandingCategorieCart/LandingCategorieCart'
+import LandingCategorieTagsRow from './LandingCategorieTagsRow/LandingCategorieTagsRow'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { useEffect} from 'react'
 let dataPruebas = [
     {   id:1,title:"city tour cusco" },
     {   id:2,title:"Arequipa" },
@@ -29,19 +31,40 @@ let dataPruebas = [
     {   id:23,title:"Pucallpa" },
     {   id:24,title:"Lago titicaca" },
 ]
+var dataSix=[];
 
 
-export default function LandingListTours(){
+
+export default function LandingListTours(){   
+    // useEffect(() => {
+    //     suma()
+    // });
+
     return(
         <div className={styles.LandingCategorieBox} >
+            {suma()}
             <span className={styles.LandingCategorieTitle} >CAtegorias màs vistas </span>
             <FontAwesomeIcon className={styles.LandingCategorieLeftArrow} icon={faArrowLeft}/>
             <div className={styles.LandingCategorieTagsbox} >
-                {dataPruebas.map((data)=>(
-                    <LandingCategorieCart key={dataPruebas.indexOf(data)} info={data} />
-                ))}
+                {
+                    dataSix.map((dataSixData)=>(
+                        <LandingCategorieTagsRow key={dataSix.indexOf(dataSixData)} dataSixData1={dataSixData} />
+                    ))
+                }
             </div>
             <FontAwesomeIcon className={styles.LandingCategorieRightArrow} icon={faArrowRight} />
         </div>
     )
+}
+
+function suma(){
+    let moment=[];
+    dataPruebas.map((data)=>{
+        moment.push(data);
+        if(data.id%6==0){
+            dataSix.push(moment);
+            console.log(dataSix)
+            moment=[];
+        }
+    });
 }
