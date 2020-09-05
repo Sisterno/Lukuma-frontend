@@ -63,7 +63,6 @@ function suma(){
         moment.push(data);
         if(data.id%6==0){
             dataSix.push(moment);
-            console.log(dataSix)
             moment=[];
         }
     });

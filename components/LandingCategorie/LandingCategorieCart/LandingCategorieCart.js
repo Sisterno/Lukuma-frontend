@@ -12,7 +12,7 @@ export default function LandingListTours({
     const color_green ={
         background: 'linear-gradient(to right, rgba(0,169,89,1) 0%, rgba(1,191,135,1) 100%)'
     };
-    if((((info.id-1-((info.id-1)%6))/6))%2){
+    if((((info.id-1-((info.id-1)%6))/6))%2){   //Necisato saber si la fila es par o impar para poder variar los coleres
         if(info.id%2==0){
             return(
                 <div className={styles.LandingCategorieCartBox} style={color_green} >
