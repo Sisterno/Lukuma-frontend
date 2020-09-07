@@ -1,3 +1,4 @@
+
 .headerContain {
     overflow: hidden;
     background-color:white; /*#e4b133;*/    
@@ -41,8 +42,8 @@
 .MenuLinks{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0 0 0 0 !important;
-    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0 ;
     color: #5C5F64;
 }
 .linkCustom{
@@ -80,5 +81,66 @@
     
     align-self: center;
 }
+.BurgerNav{
+    display: none;
+    align-self: center;
+    justify-self: end;
+    height: 20px;
+}
 
+@media only screen and (max-width: 1024px)/*CSS para tablets*/{
+    .signInText{
+        color: white;
+        font-size: 8px;
+        justify-self: center;
+        align-self: center;
+        padding: 0 10% 0 10%;
+    }
 
+    .languageLogo{
+        height: 1em;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 768px) /*CSS para celulares*/ {
+    .MenuLinks{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        color: #5C5F64;
+    }
+    .linkCustom{
+        /* justify-self: center;
+        align-self: center;
+        text-align: center;
+        font-size: 12px;
+        font-family: "Montserrat-Regular"; */
+        padding: 5PX 0 5PX 0;
+    }
+    .signInBotton{
+        margin: 5px 0 5px 0;
+    }
+    .AllMenuBox{
+        /* align-self: center;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 60% 20% 20%;
+        justify-items: center;
+        height: fit-content; */
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-column: 1/3;
+        display: grid;
+        visibility: hidden;
+        transition: visibility 0s, height 0s linear 2s;
+        height: 0px;
+        
+    }
+    .BurgerNav{
+        display: flex;
+    }
+    .languageLogo:mostrado{
+        margin: 5px 0 5px 0;
+    }
+}
