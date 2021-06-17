@@ -12,7 +12,7 @@ Es una agencia turística. Busca crear programas turísticos y administrarlos. S
 
 ## Como se ve la pagina?
 
-![Captura web](.\img\Captura web_17-6-2021_153816_localhost.jpeg)
+![Captura web](.\img\capt.jpeg)
 
 ## Como se ejecuta?
 
