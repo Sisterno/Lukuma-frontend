@@ -12,7 +12,7 @@ Es una agencia turística. Busca crear programas turísticos y administrarlos. S
 
 ## Como se ve la pagina?
 
-![Captura web](.\img\capt.jpeg)
+![Captura web](https://github.com/Sisterno/Lukuma-frontend/blob/master/img/capt.jpeg)
 
 ## Como se ejecuta?
 
