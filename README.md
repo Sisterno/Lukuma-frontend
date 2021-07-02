@@ -10,6 +10,8 @@ Es una agencia turística. Busca crear programas turísticos y administrarlos. S
 - NextJS
 - CSS
 
+### Quieres ver en deploy, [click aqui](https://lukuma-frontend.vercel.app/)
+
 ## Como se ve la pagina?
 
 ![Captura web](https://github.com/Sisterno/Lukuma-frontend/blob/master/img/capt.jpeg)
